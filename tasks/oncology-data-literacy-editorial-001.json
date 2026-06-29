@@ -1,0 +1,35 @@
+{
+  "id": "oncology-data-literacy-editorial-001",
+  "title": "Editorial guardrail rubric (no-statistic-without-a-source, correct-endpoint, absolute-before-relative, no-medical-advice/no-recommendation, refuse-and-reframe)",
+  "project": "oncology-data-literacy",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "statistics", "health-literacy", "education"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Oncology-Data-Literacy publishes three short, open, expert-reviewed courses that teach people to read cancer statistics correctly (rates, survival, screening). The project's safety-critical core is statistical and clinical CORRECTNESS: a statistics-literacy course that is itself subtly wrong manufactures the very misconception it claims to cure, with the authority of an 'educational resource'. Per the binding Elyos cancer guardrails, only open-access/aggregate/de-identified statistics are used (no controlled-access or identifiable patient data; no registry; no patient data store), every assertion carries provenance, and patient-facing content is education-only with a 'not medical advice' frame and oncologist + patient-advocate review. This cold-start task writes the editorial guardrail rubric that every later module is authored and reviewed against, BEFORE any course content exists. No partner or expert reviewer is yet secured.",
+  "objective": "Write the authoritative editorial guardrail rubric that all course content must implement and be tested against: the no-statistic-without-a-source rule, the correct-endpoint rule (mortality not 5-year survival for screening/early-detection benefit; observed vs relative/net survival), the absolute-before-relative and natural-frequency requirement, the no-medical-advice / no-recommendation rule and persistent 'Education only - not medical advice' frame, the uncertainty rule (confidence intervals, small-number instability, data vintage shown), the refuse-and-reframe rule for advice-shaped or personal-risk-calculator requests, the misconception-targeting method (each objective names the error it corrects and cites that it is common), and the riskTier split with the per-content expert sign-off gate.",
+  "acceptanceCriteria": [
+    "Encodes as checkable rules: no statistical assertion without a cited source (data vintage + provenance), the correct-endpoint rule (mortality - not 5-year survival or incidence - is the yardstick for screening/early-detection benefit; observed vs relative/net survival distinguished), absolute-before-relative risk with natural-frequency framing, and the uncertainty rule (CIs, small-number instability, data vintage shown)",
+    "States the no-medical-advice / no-recommendation rule and the persistent 'Education only - not medical advice' frame required on every module, and the screening shared-decision-making (never for/against) constraint",
+    "Defines the refuse-and-reframe rule for out-of-scope contributions (individualized advice, prognosis, screening recommendation, personal-risk calculator, vendor/charity promotion, controlled-access or identifiable patient data, NC/ND-incompatible figure embedding)",
+    "Defines the misconception-targeting method: each learning objective names the specific misconception it corrects and cites evidence the error is real and common",
+    "Specifies the riskTier split (statistical content = medium -> biostatistician/epidemiologist; patient-facing survival/screening = high -> oncologist + patient-advocate) and the per-content sign-off gate before ship",
+    "Reviewed and signed off by the statistical (biostatistician/epidemiologist) reviewer and recorded, version-scoped, in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "CLAUDE.md",
+    "docs/good-deed-definition.md",
+    "packages/schema/src/schemas.ts",
+    "planning/ROADMAP.md"
+  ],
+  "output": "A reviewed editorial-guardrail rubric document (the project's correctness + no-medical-advice charter) defining the no-statistic-without-a-source, correct-endpoint, absolute-before-relative/natural-frequency, no-medical-advice/no-recommendation, uncertainty, and refuse-and-reframe rules, the misconception-targeting method, and the riskTier/sign-off gates - the contract that the curriculum (oncology-data-literacy-curriculum-002), the provenance tooling (oncology-data-literacy-citations-009), and every course content task implement and are reviewed against.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
