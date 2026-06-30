@@ -1,0 +1,32 @@
+{
+  "id": "oncology-data-literacy-reviewers-005",
+  "title": "Recruit + secure expert reviewers (biostatistician/epidemiologist, oncologist, patient advocate)",
+  "project": "oncology-data-literacy",
+  "type": "research",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "governance"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Oncology-Data-Literacy's correctness is a safety-critical gate: a statistics-literacy course that is itself subtly wrong manufactures the very misconception it claims to cure. Per the project design, no course content (M2+) may be authored until expert reviewers are secured. The three required reviewer types are: a biostatistician/cancer epidemiologist (gates all statistical content, medium tier); an oncologist (gates HIGH-tier patient-facing survival and screening content); and a patient advocate (gates all patient-facing content for plain-language clarity, dignity, and harm-avoidance). Until these reviewers are secured and recorded, verifiedNeed stays false and content authoring does not start.",
+  "objective": "Recruit and secure the three expert reviewers required to gate course content authoring: (1) a biostatistician or cancer epidemiologist for statistical accuracy; (2) an oncologist for clinical framing and HIGH-tier patient-facing content; (3) a cancer patient advocate for plain-language clarity and lived-experience harm-avoidance. Record credentials, consent, and COI disclosures in the reviewers ledger. If reviewers are not secured, document a dated pipeline with ≥ 3 active conversations by 2026-08-31.",
+  "acceptanceCriteria": [
+    "Secures (or documents the dated pipeline toward, with ≥ 3 active conversations by 2026-08-31) a biostatistician or cancer epidemiologist willing to sign off statistical content",
+    "Secures (or documents the dated pipeline toward) an oncologist willing to sign off HIGH-tier patient-facing survival and screening content",
+    "Secures (or documents the dated pipeline toward) a cancer patient advocate willing to sign off plain-language clarity and harm-avoidance on all patient-facing content",
+    "Credentials, consent, and COI disclosures for each secured reviewer are recorded in the reviewers ledger",
+    "Documents the reviewer-recruitment pipeline (candidate profiles: epidemiology/biostat departments, oncology societies, patient-advocacy organisations) and contact status",
+    "Maintainer-reviewed report recorded; verifiedNeed on content tasks flips to true only once all three reviewers are confirmed"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md"
+  ],
+  "output": "A reviewer-recruitment report documenting secured or pipeline-toward expert reviewers (biostatistician/epidemiologist, oncologist, patient advocate) with credentials, consent, COI disclosures, and dated contact status — the gate that unblocks M2+ content authoring.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

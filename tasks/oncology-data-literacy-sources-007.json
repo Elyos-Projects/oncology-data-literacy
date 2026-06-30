@@ -1,0 +1,33 @@
+{
+  "id": "oncology-data-literacy-sources-007",
+  "title": "Vet + record each launch source's license + data vintage in the register (SEER/CDC/USPSTF/GLOBOCAN/OWID)",
+  "project": "oncology-data-literacy",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "statistics", "health-literacy", "data-provenance", "licensing"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Oncology-Data-Literacy uses aggregate published statistics from NCI SEER/SEER*Explorer, CDC US Cancer Statistics, USPSTF, IARC Global Cancer Observatory (GLOBOCAN), and Our World in Data. Before any figure or datum may be used in courseware, it must have a register entry with a verified license/legal status, data vintage, and CC-BY-compatibility verdict. This task populates those entries for the launch source set, resolving the GLOBOCAN/IARC reuse terms question (embed-or-cite-only) and flagging any NC/ND sources as cite-only. Only controlled-access or record-level data is rejected at intake.",
+  "objective": "For each launch source (NCI SEER/SEER*Explorer, CDC US Cancer Statistics/WONDER, USPSTF, IARC GLOBOCAN, Our World in Data), create a verified source register entry with the fields defined by oncology-data-literacy-licensing-003: name, publisher, table/figure id (where applicable), dataVintage, retrievalDate, url, legalStatus, ccByCompatible, and reviewBy. Resolve GLOBOCAN/IARC reuse terms to an embed-or-cite-only ruling. Reject any controlled-access or record-level data at intake.",
+  "acceptanceCriteria": [
+    "Each launch source (NCI SEER/SEER*Explorer, CDC US Cancer Statistics/WONDER, USPSTF, IARC GLOBOCAN, Our World in Data) has a complete register entry with verified license/legal status, dataVintage, retrievalDate, url, and ccByCompatible verdict",
+    "Controlled-access and record-level data sources are explicitly rejected in the register (out of scope by design); only aggregate published statistics are admitted",
+    "GLOBOCAN/IARC reuse terms are resolved to a clear embed-or-cite-only ruling with supporting evidence (e.g., IARC terms-of-use documentation)",
+    "Any NC/ND source is marked cite-only (ccByCompatible: false, embedAllowed: false) with a note specifying the incompatibility",
+    "US-gov public-domain sources (SEER, CDC, USPSTF) are confirmed as public-domain with appropriate attribution notes",
+    "Stats-reviewer audit of all register entries is recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-licensing-003.json"
+  ],
+  "output": "A populated source-licensing register covering all launch sources (SEER, CDC, USPSTF, GLOBOCAN, OWID) with verified license/legal status, data vintage, CC-BY-compatibility verdicts, and GLOBOCAN reuse ruling — the gate that unlocks aggregate teaching datasets (oncology-data-literacy-datasets-008) and CI enforcement (oncology-data-literacy-citations-009).",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

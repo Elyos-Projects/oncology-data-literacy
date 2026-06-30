@@ -1,0 +1,32 @@
+{
+  "id": "oncology-data-literacy-licensing-003",
+  "title": "Source-licensing & provenance policy + register schema (CC-BY-compatibility verdicts, dataVintage)",
+  "project": "oncology-data-literacy",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "statistics", "health-literacy", "data-provenance", "licensing"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "All statistical assertions in Oncology-Data-Literacy courseware must be traceable to a licensed source with its data vintage. The project output is CC-BY-4.0, which means any embedded figure or dataset must be public-domain or CC-BY-compatible. Attractive sources such as some charity statistics or GLOBOCAN derivatives may be NC/ND or restricted, and the rule is redraw from public-domain US-gov data or cite-without-embedding. This task defines the policy and the machine-readable register schema that enforces it, before any source is admitted. No partner is yet secured.",
+  "objective": "Write the source-licensing and provenance policy document and define the machine-readable register entry schema for all statistical sources used in the courseware. The policy must state the public-domain-first sourcing rule, the NC/ND-incompatible → redraw-or-cite-only rule, and the requirement that a figure or datum may not enter the courseware without a register entry whose ccByCompatible verdict is true or an explicit cite-only marker. The register entry shape must include all fields needed for CI enforcement and staleness checking.",
+  "acceptanceCriteria": [
+    "Defines the register entry schema with all required fields: name, publisher, table/figure id, dataVintage, retrievalDate, url, legalStatus, ccByCompatible (boolean verdict), and reviewBy (staleness date)",
+    "States the public-domain-first sourcing rule (prefer US-gov public-domain sources — SEER, CDC, USPSTF, NCI — for embedded figures so CC-BY output is unencumbered)",
+    "States the NC/ND-incompatible rule: sources with NC or ND clauses may not be embedded in CC-BY courseware; the options are redraw an equivalent from public-domain data, or mark cite-only (no embedding)",
+    "States that a figure or datum may not be used in courseware without a register entry whose ccByCompatible verdict is true or an explicit cite-only marker",
+    "Flags GLOBOCAN/IARC as a source whose reuse terms require per-figure verification before embed-or-cite determination",
+    "Reviewed and approved by the Maintainer and recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md"
+  ],
+  "output": "A source-licensing and provenance policy document and machine-readable register entry schema (JSON or YAML) that defines the CC-BY-compatibility verdict requirement, public-domain-first sourcing rule, NC/ND exclusion rule, and dataVintage+reviewBy staleness fields — the gate that M1 source vetting and the CI citation-coverage check enforce.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

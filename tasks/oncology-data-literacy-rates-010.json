@@ -1,0 +1,35 @@
+{
+  "id": "oncology-data-literacy-rates-010",
+  "title": "Course 1 content: incidence/mortality/prevalence, crude vs age-standardized, rates vs risk, absolute vs relative, CIs, reading trends",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "rates"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "Reading Rates is the first and foundational course in Oncology-Data-Literacy, covering the statistical concepts that underlie all cancer number interpretation: incidence, mortality, prevalence; crude vs age-standardized rates; rates vs risk (lifetime '1 in N'); absolute vs relative risk; confidence intervals and small-number instability; and how to read trends without confusing changes in detection or coding with real changes. All content is statistical-tier (medium risk) and requires biostatistician/epidemiologist sign-off. All statistics must be cited with data vintage from aggregate sources; 'not medical advice' frame required throughout.",
+  "objective": "Author the full content for Course 1: Reading Rates. The course must cover all named modules from the curriculum map, with every learning objective tied to a named misconception from the inventory. All statistical assertions must be cited with data vintage from aggregate sources in the register. Content must be written in plain language, implement all editorial guardrail rules, include a 'not medical advice' frame on every module, and be structured for the OER build pipeline.",
+  "acceptanceCriteria": [
+    "Covers all modules from the Course 1 curriculum map: incidence vs mortality vs prevalence; crude vs age-standardized rates (why age structure matters; standard populations); rates vs risk (lifetime '1 in N' is a population age-driven figure, not a personal probability); absolute vs relative risk (relative-risk headline inflation); confidence intervals / small-number instability / suppression; reading trends (changes in detection/coding vs real change; correlation is not causation)",
+    "Each learning objective is tied to a named misconception from the misconception inventory",
+    "Every statistical assertion is cited with a register entry and data vintage; citation coverage is 100% (CI check passes)",
+    "All editorial guardrail rules from oncology-data-literacy-editorial-001 are implemented: correct-endpoint rule, absolute-before-relative, natural-frequency framing, uncertainty shown, no medical advice frame present",
+    "Content is written in plain language, is OER-build-compatible (Markdown/MDX), and passes lint and link-check",
+    "Biostatistician/epidemiologist sign-off is recorded, version-scoped, in the reviewers ledger before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-editorial-001.json",
+    "tasks/oncology-data-literacy-curriculum-002.json",
+    "tasks/oncology-data-literacy-datasets-008.json"
+  ],
+  "output": "Full content for Course 1: Reading Rates, covering all six topic areas from the curriculum map, with every statistic cited with data vintage, every objective tied to a named misconception, all guardrail rules implemented, and stats-reviewer sign-off recorded.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "oncology-data-literacy-pilot-006",
+  "title": "Pilot 'reading a cancer headline' module (method proof; 1 worked example end-to-end)",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "statistics", "health-literacy", "education"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Before authoring the three full courses, the project needs a proof that the editorial method works end-to-end: the guardrail rubric, the misconception-targeting method, the provenance/citation pipeline, and the 'not medical advice' framing all tested together in one short worked example. This pilot module proves the production pipeline (rubric → cited aggregate data → worked example → misconception callout → self-check) before the larger content investment begins. The module works with publicly available, aggregate, cited cancer statistics — no individual patient data. It is statistical-tier content (medium risk), reviewed by the stats reviewer.",
+  "objective": "Author a short pilot module — 'reading a cancer headline' — that demonstrates the editorial method end-to-end: one worked example that takes a real cancer statistic headline (e.g., '5-year survival has doubled'), deconstructs the misconception it causes (lead-time bias / survival ≠ mortality), names the error explicitly, shows the correct interpretation using cited aggregate data with data vintage, and closes with a self-check. The module must implement all editorial guardrail rules from oncology-data-literacy-editorial-001 and serve as the test case for the citation-coverage CI scaffold.",
+  "acceptanceCriteria": [
+    "Produces a self-contained worked-example module that takes one real cancer statistic headline, names the misconception it triggers, and corrects it using cited aggregate data with data vintage and provenance",
+    "Implements all rules from the editorial guardrail rubric (oncology-data-literacy-editorial-001): no uncited statistic, correct-endpoint rule, absolute-before-relative framing, no medical advice frame present, uncertainty shown",
+    "Every statistical assertion in the module is keyed to a register entry (or a temporary provenance stub) with data vintage; the citation-coverage scaffold passes on this module",
+    "Module includes a named misconception callout and a self-check item tied to the misconception inventory",
+    "Reviewed and signed off by the statistical (biostatistician/epidemiologist) reviewer; sign-off recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-editorial-001.json",
+    "tasks/oncology-data-literacy-curriculum-002.json",
+    "tasks/oncology-data-literacy-licensing-003.json"
+  ],
+  "output": "A short, reviewed pilot module ('reading a cancer headline') that proves the editorial method and production pipeline end-to-end, with all statistics cited with data vintage, the misconception named and corrected, a self-check included, and stats-reviewer sign-off recorded.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

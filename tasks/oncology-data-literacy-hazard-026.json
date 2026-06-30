@@ -1,0 +1,35 @@
+{
+  "id": "oncology-data-literacy-hazard-026",
+  "title": "Hazard-ratio / forest-plot reading mini-module",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "statistics", "health-literacy", "education"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Hazard ratios and forest plots appear routinely in cancer trial reporting and patient advocacy materials, but they are rarely explained to non-statistician audiences. This backlog mini-module extends the core curriculum with a short, focused treatment. Coordination with the sibling project 'stats-for-clinicians' is needed to avoid duplicating a clinician-facing treatment of the same topic. The module is statistical-tier (medium risk) and requires biostatistician sign-off. It must implement all editorial guardrail rules, including the absolute-before-relative rule (showing what a hazard ratio means in natural-frequency or absolute-difference terms, not just the ratio).",
+  "objective": "Author a short mini-module on reading hazard ratios and forest plots, suitable for patient advocates, health journalists, and public health students. The module must explain what a hazard ratio is in plain language with natural-frequency context, how to read a forest plot (including confidence intervals and the null-effect line), and what a 'statistically significant' HR means and doesn't mean. Coordinate with the stats-for-clinicians sibling project to avoid duplication.",
+  "acceptanceCriteria": [
+    "Explains hazard ratio in plain language with a concrete cancer-trial example, showing the absolute-difference context alongside the ratio (absolute-before-relative rule)",
+    "Explains how to read a forest plot: point estimate, confidence interval width, the null line, and what crossing the null line means",
+    "Explains the difference between statistical significance and clinical significance in the HR context",
+    "Coordination note with stats-for-clinicians sibling project confirmed (non-duplication; different audience framing verified)",
+    "All statistical assertions cited with aggregate data and data vintage; citation coverage 100%",
+    "Carries 'not medical advice' framing; no individualized treatment recommendation implied",
+    "Biostatistician/epidemiologist sign-off recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-curriculum-002.json",
+    "tasks/oncology-data-literacy-rates-010.json"
+  ],
+  "output": "A short mini-module on reading hazard ratios and forest plots — plain-language, absolute-context framing, coordinated with stats-for-clinicians to avoid duplication, and biostatistician signed off.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

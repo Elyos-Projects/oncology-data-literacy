@@ -1,0 +1,34 @@
+{
+  "id": "oncology-data-literacy-notebook-027",
+  "title": "Optional interactive notebook versions of worked examples (aggregate data)",
+  "project": "oncology-data-literacy",
+  "type": "code",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "tooling"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Data-science students and quantitatively oriented learners benefit from interactive, runnable worked examples alongside the static course content. This optional backlog item produces Jupyter notebook (or equivalent) versions of the core worked examples, using the aggregate teaching datasets already in the repository. Notebooks are not patient-facing clinical tools — they are teaching aids that run pre-loaded aggregate data; they compute no personal risk estimates. Code license MIT; data and notebooks CC-BY-4.0 (data license follows the underlying aggregate source).",
+  "objective": "Produce optional interactive notebook versions (Jupyter or equivalent) of the core worked examples from all three courses, using the aggregate teaching datasets committed to the repository (oncology-data-literacy-datasets-008). Notebooks must be runnable standalone on aggregate data; they must compute no personal risk estimates; they must load data only from the committed teaching datasets (no external API calls to patient data sources).",
+  "acceptanceCriteria": [
+    "At least one runnable notebook per course (Reading Rates, Reading Survival, Reading Screening Evidence) demonstrating the core worked example for that course",
+    "Notebooks use only the aggregate teaching datasets committed to the repository (oncology-data-literacy-datasets-008); no calls to external APIs or patient data sources",
+    "Notebooks compute no personal risk estimates; all outputs are aggregate statistics or teaching calculations on static numbers",
+    "Each notebook carries a header cell noting 'Education only — not medical advice; uses aggregate teaching data only; no personal estimates'",
+    "Notebooks are linked from the main course content as optional supplementary material (not required for the course)",
+    "Maintainer-reviewed PR with CI green (lint, link-check) before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-datasets-008.json",
+    "tasks/oncology-data-literacy-platform-004.json"
+  ],
+  "output": "A merged PR adding optional interactive notebook versions of core worked examples (one per course) using committed aggregate teaching datasets — no personal estimates, labeled education-only, and linked as supplementary material.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "oncology-data-literacy-screening-015",
+  "title": "Course 3 worked examples + illustrative-only natural-frequency widget (static teaching numbers; no personal estimate)",
+  "project": "oncology-data-literacy",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "screening", "tooling"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Course 3 (Reading Screening Evidence) requires worked examples that demonstrate the base-rate fallacy using natural frequencies (e.g., converting '99% accurate test' into natural frequencies for a low-prevalence population), and an illustrative-only natural-frequency widget for learners to explore. The widget must be strictly teaching-only: it runs client-side on static teaching numbers, computes no personal risk estimate, stores or transmits nothing, and is labeled 'illustrative / teaching only'. This is HIGH-tier because the screening content is patient-facing. Stats and clinical sign-off required. Maintainer reviews the code.",
+  "objective": "Implement the worked examples and the illustrative-only natural-frequency widget for Course 3: Reading Screening Evidence. The widget must: (1) run client-side on static teaching numbers only; (2) compute no personal risk estimate; (3) store or transmit nothing; (4) be labeled 'illustrative / teaching only — not a personal risk calculator'. Worked examples must convert a 'highly accurate test' into natural frequencies to expose the base-rate fallacy, and demonstrate the number-needed-to-screen concept with cited aggregate data.",
+  "acceptanceCriteria": [
+    "Natural-frequency widget runs client-side only, operates on static teaching numbers, computes no personal risk estimate, stores no data, transmits no data, and is explicitly labeled 'illustrative / teaching only — not a personal risk calculator'",
+    "Widget demonstrates at minimum: how a test with high sensitivity/specificity produces many false positives in a low-prevalence population (base-rate fallacy), with the natural-frequency visualization",
+    "Worked examples convert a 'highly accurate test' scenario into natural frequencies step-by-step using cited aggregate data; exercises let learners practice the conversion",
+    "Widget passes a static-analysis check confirming it makes no external API calls and stores nothing client-side (no localStorage, no cookies, no analytics)",
+    "All statistical assertions in worked examples carry register citations with data vintage; citation coverage 100%",
+    "Biostatistician/epidemiologist sign-off recorded in the reviewers ledger confirming statistical accuracy",
+    "Oncologist sign-off recorded in the reviewers ledger confirming safe clinical framing",
+    "Maintainer-reviewed PR with all CI checks green before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-screening-014.json",
+    "tasks/oncology-data-literacy-datasets-008.json",
+    "tasks/oncology-data-literacy-platform-004.json"
+  ],
+  "output": "A merged PR containing the illustrative-only natural-frequency widget (client-side, static teaching numbers, no personal estimates, labeled teaching-only) and worked examples/exercises for Course 3: Reading Screening Evidence — with stats and clinical sign-off recorded.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

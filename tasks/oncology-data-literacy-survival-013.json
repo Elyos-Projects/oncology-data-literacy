@@ -1,0 +1,36 @@
+{
+  "id": "oncology-data-literacy-survival-013",
+  "title": "Course 2 worked examples + exercises + self-check (lead-time/overdiagnosis demonstrations from aggregate data)",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "survival"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The worked examples and exercises for Course 2 (Reading Survival) are a separate authoring task from the core content. Because survival content is patient-facing (HIGH riskTier), all three expert reviewers must sign off: biostatistician, oncologist, and patient advocate. Exercises must demonstrate lead-time bias and overdiagnosis with concrete worked examples from cited aggregate data so that learners can distinguish a real mortality benefit from a survival artifact. The advocate reviewer must confirm plain-language and dignity (no fear-mongering, no false reassurance). No individual prognosis may be implied in any worked example.",
+  "objective": "Author worked examples, exercises, and self-check items for Course 2: Reading Survival. Core worked examples must demonstrate lead-time bias and overdiagnosis using concrete aggregate data so learners can distinguish a real mortality benefit from a survival artifact. Exercises must let learners practice distinguishing the survival-vs-mortality endpoint distinction. All items must carry the 'Education only — not medical advice' frame. All statistics must be cited with data vintage.",
+  "acceptanceCriteria": [
+    "Includes concrete worked examples demonstrating lead-time bias and overdiagnosis using cited aggregate data, showing how survival can rise with no mortality benefit",
+    "Exercises let learners distinguish a real mortality benefit from a survival artifact in at least two different scenarios",
+    "Self-check items directly test the 'survival-rise implies screening/treatment benefit' misconception and its correction",
+    "Plain-language and dignity reviewed by the patient-advocate reviewer: no fear-mongering, no false reassurance, no implied individual prognosis",
+    "All statistical assertions carry register citations with data vintage; citation coverage 100%",
+    "Biostatistician/epidemiologist sign-off recorded in the reviewers ledger before merge",
+    "Oncologist sign-off recorded in the reviewers ledger confirming clinical accuracy and safe framing before merge",
+    "Patient-advocate sign-off recorded in the reviewers ledger confirming plain-language clarity and harm-avoidance before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-survival-012.json",
+    "tasks/oncology-data-literacy-datasets-008.json"
+  ],
+  "output": "Worked examples, exercises, and self-check items for Course 2: Reading Survival — demonstrating lead-time bias and overdiagnosis from aggregate data, with HIGH-tier framing upheld and biostatistician + oncologist + patient-advocate sign-off recorded.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

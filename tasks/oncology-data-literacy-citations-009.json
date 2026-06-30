@@ -1,0 +1,33 @@
+{
+  "id": "oncology-data-literacy-citations-009",
+  "title": "Citation/provenance tooling: citation-coverage + license-compatibility + staleness checks in CI",
+  "project": "oncology-data-literacy",
+  "type": "code",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "statistics", "health-literacy", "tooling", "data-provenance"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "The editorial guardrail rubric's 'no statistic without a source' rule and the CC-BY-compatibility gate must be enforced mechanically in CI, not just in review. This task implements the provenance/citation tooling that (a) fails the build on any statistical assertion not keyed to a register entry, (b) fails the build on any embedded source whose ccByCompatible is false, and (c) flags any source past its reviewBy staleness date for refresh and re-sign-off. This tooling depends on the platform repo (oncology-data-literacy-platform-004) and the populated source register (oncology-data-literacy-sources-007).",
+  "objective": "Implement the citation/provenance tooling in CI: (1) citation-coverage check that fails the build on any statistical assertion in course content not keyed to a source register entry; (2) license-compatibility check that fails the build on any embedded source whose ccByCompatible verdict is false; (3) staleness check that flags (or fails) on any source whose reviewBy date has passed, requiring refresh and re-sign-off before the statistic may be served. Wire all three into the existing CI pipeline from oncology-data-literacy-platform-004.",
+  "acceptanceCriteria": [
+    "Citation-coverage check is wired into CI and fails the build on any statistical assertion in course content that is not keyed to a source register entry",
+    "License-compatibility check is wired into CI and fails the build on any embedded source whose ccByCompatible verdict is false in the register",
+    "Staleness check is wired into CI and flags (or optionally fails) any source past its reviewBy date, with a clear error message identifying the source and the refresh action required",
+    "All three checks pass on the pilot module (oncology-data-literacy-pilot-006) with its existing register entries",
+    "Maintainer-reviewed PR with all CI checks green before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-platform-004.json",
+    "tasks/oncology-data-literacy-sources-007.json"
+  ],
+  "output": "A merged PR adding citation-coverage, license-compatibility, and staleness checks to CI — the mechanical enforcement of the 'no statistic without a source' and CC-BY-compatibility guardrails across all course content.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

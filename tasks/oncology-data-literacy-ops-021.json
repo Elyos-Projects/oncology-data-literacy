@@ -1,0 +1,33 @@
+{
+  "id": "oncology-data-literacy-ops-021",
+  "title": "Maintenance rotation + data-vintage review cadence (refresh + re-sign-off) + outcomes record + contribution/expansion process",
+  "project": "oncology-data-literacy",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "governance"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "After delivery, the courseware requires sustained maintenance: cancer statistics are reissued regularly (e.g., annual SEER submissions, periodic GLOBOCAN updates), so stale figures are a real recurring failure mode. A named maintenance rotation must own the review cadence; the staleness check in CI flags sources past their reviewBy date; and re-sign-off by the relevant expert is required before refreshed statistics re-enter the courseware. Outcomes (misconception reduction, cohorts taught, third-party reuse/translations) are tracked as the success record — not page views. An expert-gated contribution process governs adding new courses, cancer-type case studies, or translations.",
+  "objective": "Document and instantiate the post-delivery operational model: (1) name the maintenance rotation and assign ownership; (2) define the data-vintage review cadence (how and when statistics are refreshed as new SEER/CDC/GLOBOCAN releases land, with re-sign-off by the relevant expert); (3) define the outcomes record (what is tracked and how); (4) document the expert-gated process for adding a new course, a cancer-type case study, or a translation.",
+  "acceptanceCriteria": [
+    "Named maintenance rotation documented with owners and responsibilities (content, tooling, partner relationship, outcomes tracking)",
+    "Data-vintage review cadence defined: specifies trigger events (new SEER/CDC/GLOBOCAN release), the review process (staleness check → source refresh → re-sign-off by relevant expert → re-run CI), and cadence intervals",
+    "Outcomes record defined: tracks cohorts taught, per-item misconception reduction, third-party reuse, and translations — explicitly not page views or module completions alone",
+    "Expert-gated contribution process documented for (a) adding a new course or cancer-type case study (requires curriculum review + relevant expert sign-off) and (b) adding a translation (requires per-language expert review at HIGH tier for patient-facing content)",
+    "Biostatistician/epidemiologist sign-off on the data-vintage review cadence recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-delivery-020.json",
+    "tasks/oncology-data-literacy-citations-009.json"
+  ],
+  "output": "A maintenance and sustainability document: named rotation, data-vintage review cadence with re-sign-off protocol, outcomes record definition, and expert-gated contribution/expansion process — the operational infrastructure that keeps the courseware current and the success record honest.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

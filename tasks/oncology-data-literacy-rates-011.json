@@ -1,0 +1,34 @@
+{
+  "id": "oncology-data-literacy-rates-011",
+  "title": "Course 1 worked examples + exercises + self-check from aggregate data",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "rates"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The worked examples and exercises for Course 1 (Reading Rates) are a separate authoring task from the core content, allowing the exercises to be drafted and reviewed after the content is stable. Exercises must be built from cited aggregate data already in the teaching dataset set, each tied to a learning objective and a named misconception from the inventory. All statistical guardrail rules apply: every figure cited, 'not medical advice' frame, correct framing. Stats-reviewer sign-off required before merge.",
+  "objective": "Author the worked examples, exercises, and self-check items for Course 1: Reading Rates. Each worked example must use cited aggregate data from the teaching datasets, demonstrate a specific misconception correction from the inventory, and walk through the correct interpretation step by step. Each exercise must be tied to a learning objective. Self-check items must test the named misconceptions directly.",
+  "acceptanceCriteria": [
+    "At least one worked example per major topic area in Course 1 (rates definitions, age-standardization, rates vs risk, absolute vs relative, CIs/small numbers, trends), each built from cited aggregate data with data vintage",
+    "Each worked example explicitly names the misconception it corrects and shows the step-by-step correct interpretation",
+    "Exercises and self-check items are each tied to a named misconception from the misconception inventory",
+    "All statistical assertions in worked examples carry register citations with data vintage; citation coverage 100% (CI passes)",
+    "No worked example or exercise implies medical advice, individualized prognosis, or a personal recommendation",
+    "Biostatistician/epidemiologist sign-off recorded, version-scoped, in the reviewers ledger before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-rates-010.json",
+    "tasks/oncology-data-literacy-datasets-008.json"
+  ],
+  "output": "Worked examples, exercises, and self-check items for Course 1: Reading Rates — each built from cited aggregate data, tied to a named misconception, and stats-reviewer signed off.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

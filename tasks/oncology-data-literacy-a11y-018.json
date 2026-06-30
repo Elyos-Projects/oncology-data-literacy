@@ -1,0 +1,36 @@
+{
+  "id": "oncology-data-literacy-a11y-018",
+  "title": "Accessibility (WCAG 2.2 AA) + plain-language pass + translation-readiness extraction",
+  "project": "oncology-data-literacy",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "health-literacy", "education", "accessibility", "tooling"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "For Oncology-Data-Literacy to reach non-expert and non-English audiences, the courseware must meet WCAG 2.2 AA accessibility standards, pass a plain-language review, and be translation-ready (structured so that statistical claims and citations remain intact during translation). Accessibility and plain-language work are scoped to tooling/platform (low risk tier); the patient-advocate reviewer assists on the plain-language pass since they represent the beneficiary audience. Translation-readiness is about structure, not authoring — it ensures strings are extractable and citations remain linked through translation.",
+  "objective": "Run an accessibility pass (WCAG 2.2 AA), a plain-language pass, and translation-readiness extraction across all three courses (Readings Rates, Reading Survival, Reading Screening Evidence). Wire automated a11y checks into CI. Produce a plain-language review report identifying terms that need simplification. Extract translation-ready strings in a structure that keeps statistical claims keyed to their citations (so per-language expert review of translations can verify claim accuracy).",
+  "acceptanceCriteria": [
+    "Automated WCAG 2.2 AA accessibility checks are wired into CI and passing on all published course modules",
+    "Manual a11y audit (or detailed report from automated tooling) confirms no known AA failures remain in the published courseware",
+    "Plain-language pass produces a report identifying terms simplified or flagged for further simplification; readability scoring meets the target for the intended audience",
+    "Translation-readiness: all course strings are extractable in a structured format (e.g., a standard i18n format) that keeps statistical claims keyed to their register citations",
+    "Patient-advocate reviewer confirms the plain-language pass output on patient-facing modules",
+    "Maintainer-reviewed PR with CI green (a11y checks passing) before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-platform-004.json",
+    "tasks/oncology-data-literacy-rates-010.json",
+    "tasks/oncology-data-literacy-survival-012.json",
+    "tasks/oncology-data-literacy-screening-014.json"
+  ],
+  "output": "A merged PR adding WCAG 2.2 AA checks to CI (passing), a plain-language review report, and translation-ready string extraction — ensuring the courseware is accessible to and adaptable for non-expert and non-English audiences.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

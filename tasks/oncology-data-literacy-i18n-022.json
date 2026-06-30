@@ -1,0 +1,34 @@
+{
+  "id": "oncology-data-literacy-i18n-022",
+  "title": "Community translations of the courses (per-language)",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "translation"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "translation",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "Translation of patient-facing cancer statistics courses is treated as HIGH riskTier because a mistranslated statistic or a subtly altered framing in patient-facing content reintroduces clinical risk — potentially the very misconception the course was designed to cure, now with the authority of a translated 'educational resource'. The translation-readiness extraction (oncology-data-literacy-a11y-018) structures strings so statistical claims remain keyed to citations, making per-language expert review tractable. Each language requires its own expert review of the translation by a qualified bilingual reviewer in the relevant domain. Only languages for which such a reviewer can be secured should proceed.",
+  "objective": "Produce community translations of the Oncology-Data-Literacy courses for one or more additional languages, with each translation reviewed by a qualified bilingual expert (biostatistician/epidemiologist for statistical content; oncologist + patient-advocate for patient-facing survival and screening content) before publication. Translations must preserve all statistical claims exactly, maintain the 'Education only — not medical advice' framing in the target language, and keep every claim keyed to its register citation.",
+  "acceptanceCriteria": [
+    "Each translated course has undergone per-language expert review by a qualified bilingual reviewer appropriate to the content (biostatistician/epidemiologist for statistical modules; oncologist + patient-advocate for patient-facing survival and screening modules)",
+    "Oncologist sign-off and patient-advocate sign-off recorded per language for all HIGH-tier (survival and screening) translated content before publication",
+    "All translated statistical claims are verified as accurate equivalents of the source claims; no statistical values, units, or qualifiers are altered or omitted in translation",
+    "'Education only — not medical advice' framing is present and accurately rendered in the target language on every translated module",
+    "All statistical claims in the translation remain keyed to their register citation entries (provenance is preserved through translation)",
+    "Translation is submitted as a PR following the expert-gated contribution process from oncology-data-literacy-ops-021"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-a11y-018.json",
+    "tasks/oncology-data-literacy-ops-021.json"
+  ],
+  "output": "Expert-reviewed translation(s) of the Oncology-Data-Literacy courses in one or more additional languages, with all statistical claims preserved, HIGH-tier framing upheld, and per-language oncologist + patient-advocate sign-off recorded for patient-facing content.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

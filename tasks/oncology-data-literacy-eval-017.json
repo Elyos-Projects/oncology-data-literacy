@@ -1,0 +1,34 @@
+{
+  "id": "oncology-data-literacy-eval-017",
+  "title": "Learning-outcome eval (misconception reduction) + accuracy-regression fixtures in CI",
+  "project": "oncology-data-literacy",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "assessment", "tooling"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Learning-outcome measurement and accuracy regression are both CI-enforced. The learning-outcome eval scores misconception reduction (pre to post delta per item and in aggregate) from an anonymised cohort export. The accuracy-regression fixtures are a set of 'tricky' claims the courseware must get right — e.g., 'does rising 5-year survival prove that early detection saves lives?' — that CI runs against the course content so that an edit cannot silently reintroduce a known corrected error. The M5 kill-gate requires a dry-run of the instrument on a small test group to show movement on core misconception items before partner delivery.",
+  "objective": "Implement: (1) a learning-outcome eval harness that scores misconception reduction (pre-to-post delta per item and aggregate) from an anonymised cohort export, reporting the per-item delta; (2) accuracy-regression fixtures — a CI test suite of 'tricky' claims the courseware must get right — that fails if an edit reintroduces a known corrected error. Both must be wired into CI. Document the M5 kill-gate: a dry-run of the instrument on a small test group must show movement on core misconception items before partner delivery.",
+  "acceptanceCriteria": [
+    "Learning-outcome eval harness takes anonymised pre/post instrument responses (no PII) and computes per-item misconception reduction delta and aggregate score improvement",
+    "Eval output reports the per-item delta for at minimum the 'survival-rise implies benefit' item, the base-rate item, and the absolute-vs-relative item",
+    "Accuracy-regression fixtures implemented as a CI test suite: a set of claims the courseware must get right, with CI failing if an edit reintroduces a known corrected error",
+    "Both eval harness and accuracy-regression fixtures are wired into the CI pipeline",
+    "M5 kill-gate documented: a dry-run of the instrument on a small test group must show movement on core misconception items; if no movement is detected, content is reworked before partner delivery",
+    "Maintainer-reviewed PR with CI green before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-assessment-016.json",
+    "tasks/oncology-data-literacy-platform-004.json"
+  ],
+  "output": "A merged PR adding a learning-outcome eval harness (per-item misconception reduction scoring) and accuracy-regression fixtures (CI-enforced) — together constituting the M5 measurement and quality-gate infrastructure.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

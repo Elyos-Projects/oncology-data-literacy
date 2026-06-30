@@ -1,0 +1,37 @@
+{
+  "id": "oncology-data-literacy-partner-019",
+  "title": "Secure delivery partner + steward; final expert sign-off of all shipped courses; confirm license/provenance",
+  "project": "oncology-data-literacy",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "health-literacy", "education", "governance", "delivery"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The project is not 'shipped' on merge — it is shipped when a real cohort of learners completes a course and a measurable reduction in targeted misconceptions is recorded. Securing a delivery partner (educator, patient-advocacy organisation, public library, or OER host) and a named steward is the M6 gate. The dated partner plan requires a named partner by 2026-10-31; if none is secured by 2027-01-31, the project applies the build-vs-mothball/pivot rule (donate to an OER host with measured reuse, or mothball). This task also confirms final expert sign-off of all shipped courses and verifies license/provenance completeness. No partner is yet secured (verifiedNeed: false).",
+  "objective": "Secure a named delivery partner (educator/advocacy org/library/OER host) and steward for the courses; obtain final expert sign-off (biostatistician on all content, oncologist + patient-advocate on HIGH-tier content) confirming all shipped versions; and verify that every statistical assertion in all shipped courses has a current, CC-BY-compatible provenance register entry. If no partner is secured, document the pivot (OER host donation) or mothball decision per the dated plan.",
+  "acceptanceCriteria": [
+    "A named delivery partner (educator, patient-advocacy organisation, public library, or OER host) and steward are secured, with verifiedNeed flipping to true; partner and steward are recorded with contact and consent",
+    "Final biostatistician/epidemiologist sign-off recorded for all three courses (version-scoped); final oncologist and patient-advocate sign-off recorded for Reading Survival and Reading Screening Evidence (version-scoped)",
+    "All statistical assertions across all shipped courses have current, CC-BY-compatible provenance register entries with data vintage; no entry past its reviewBy date at time of ship",
+    "License/provenance completeness confirmed: zero embedded sources with ccByCompatible: false; every dataset/figure has a register entry",
+    "If no delivery partner is secured by 2027-01-31, a governance-recorded decision documents the pivot to an OER host (with measured reuse outcomes) or a mothball to maintenance-only",
+    "Oncologist sign-off confirming HIGH-tier framing is upheld across all patient-facing content in the shipped versions"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-rates-011.json",
+    "tasks/oncology-data-literacy-survival-013.json",
+    "tasks/oncology-data-literacy-screening-015.json",
+    "tasks/oncology-data-literacy-eval-017.json",
+    "tasks/oncology-data-literacy-a11y-018.json"
+  ],
+  "output": "A partner-adoption and final-sign-off report: named delivery partner and steward secured (or pivot/mothball decision recorded), all expert sign-offs confirmed version-scoped, license/provenance completeness verified — the gate that unlocks the closed-loop delivery measurement.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

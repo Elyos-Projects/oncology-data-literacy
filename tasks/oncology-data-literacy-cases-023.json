@@ -1,0 +1,36 @@
+{
+  "id": "oncology-data-literacy-cases-023",
+  "title": "Additional cancer-type worked-example case studies",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "statistics", "health-literacy", "education"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "After the three core courses are stable, additional cancer-type case studies can deepen the curriculum with more examples. Candidate case studies are chosen for pedagogical power: a cancer with documented overdiagnosis from screen-detection (e.g., thyroid or prostate cancer) to illustrate overdiagnosis concretely; a cancer with a real mortality-reducing screen to illustrate what genuine screening benefit looks like; and a rare cancer for small-number and confidence-interval lessons. These remain HIGH riskTier because they are patient-facing content with cancer statistics. All three expert reviewers must sign off.",
+  "objective": "Author additional cancer-type worked-example case studies selected for maximum pedagogical value: at minimum (1) a cancer with documented overdiagnosis from screen-detection to illustrate overdiagnosis concretely; (2) a cancer with a real mortality-reducing screen to illustrate what genuine screening benefit looks like vs. a survival artifact; (3) a rare cancer for small-number instability and confidence-interval lessons. All cases must be built from cited aggregate data and meet all editorial guardrail requirements.",
+  "acceptanceCriteria": [
+    "At least three cancer-type case studies authored, selected for pedagogical power: an overdiagnosed screen-detected cancer, a cancer with demonstrated mortality-reducing screening, and a rare cancer for small-number/CI lessons",
+    "Each case study is built from cited aggregate data (no individual-level data) with data vintage and provenance register entries",
+    "Each case study names the misconception(s) it targets and demonstrates the correct interpretation step by step",
+    "HIGH-tier framing: persistent 'Education only — not medical advice' frame; no individualized prognosis or screening recommendation",
+    "Biostatistician/epidemiologist sign-off recorded for all case studies in the reviewers ledger",
+    "Oncologist sign-off recorded confirming clinical accuracy and safe framing for all case studies",
+    "Patient-advocate sign-off recorded confirming plain-language clarity and harm-avoidance"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-curriculum-002.json",
+    "tasks/oncology-data-literacy-datasets-008.json",
+    "tasks/oncology-data-literacy-ops-021.json"
+  ],
+  "output": "A set of additional cancer-type worked-example case studies (at minimum overdiagnosed screen-detected, real mortality-reducing screen, and rare cancer for CI/small-number) — each built from cited aggregate data, pedagogically targeted, and signed off by all three expert reviewers.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
