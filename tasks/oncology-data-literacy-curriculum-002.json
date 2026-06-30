@@ -1,0 +1,33 @@
+{
+  "id": "oncology-data-literacy-curriculum-002",
+  "title": "Curriculum map + learning objectives + named misconception inventory (3 courses)",
+  "project": "oncology-data-literacy",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "curriculum"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Oncology-Data-Literacy publishes three short, open, expert-reviewed courses that teach people to read cancer statistics correctly (Reading Rates, Reading Survival, Reading Screening Evidence). The editorial guardrail rubric (oncology-data-literacy-editorial-001) defines the authoring rules, but this task creates the curriculum architecture that every course content task fulfils: a sequenced map of learning objectives tied explicitly to named misconceptions, and the full misconception inventory across all three courses. This curriculum map becomes the contract between the editorial rubric, the content authoring tasks, and the pre/post assessment instrument. No partner or expert reviewer is yet secured.",
+  "objective": "Produce the curriculum map and learning-objectives document for all three courses (Reading Rates, Reading Survival, Reading Screening Evidence), together with a named misconception inventory that enumerates each specific error the courses target, the evidence that each error is real and common, and the learning objective that corrects it. Each learning objective must name the misconception it corrects and be tied to a worked example type and a self-check item.",
+  "acceptanceCriteria": [
+    "Curriculum map covers all three courses in sequence (Reading Rates, Reading Survival, Reading Screening Evidence), with named modules and module-level learning objectives",
+    "Named misconception inventory lists each specific error targeted (e.g., survival-rate-rise implies screening benefit, relative-risk headline inflation, base-rate fallacy for test accuracy, crude-rate confounding by age structure, lifetime-risk as personal probability), with at least one literature citation per misconception establishing it is real and common",
+    "Each learning objective is explicitly tied to a named misconception from the inventory and to the type of worked example that demonstrates the correction",
+    "Curriculum map specifies the correct sequencing dependency (Rates before Survival before Screening, with pilot module as a prerequisite proof)",
+    "Document distinguishes riskTier per module (statistical = medium; patient-facing survival/screening = high) consistent with the editorial guardrail rubric",
+    "Reviewed and signed off by the statistical (biostatistician/epidemiologist) reviewer and recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-editorial-001.json"
+  ],
+  "output": "A curriculum map and learning-objectives document covering all three courses, plus the full named misconception inventory (with evidence citations) that drives content authoring, assessment design, and accuracy-regression fixtures.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

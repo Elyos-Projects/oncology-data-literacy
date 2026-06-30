@@ -1,0 +1,38 @@
+{
+  "id": "oncology-data-literacy-screening-014",
+  "title": "Course 3 content: correct endpoint (mortality), sens/spec/PPV via natural frequencies, NNS, false positives/overdiagnosis/overtreatment, RCT vs observational, shared-decision framing",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "screening"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "Reading Screening Evidence is the third course and the most clinically sensitive: it must teach learners how to weigh screening evidence without ever telling them whether to be screened. This is patient-facing content (HIGH riskTier) with an absolute no-recommendation rule — the course supports shared-decision-making conversations with clinicians. It must enforce the correct-endpoint rule (mortality reduction — not 5-year survival, incidence, or survival rate — is the correct test of screening benefit) and teach sensitivity/specificity/PPV via natural frequencies to expose the base-rate fallacy. Biostatistician + oncologist + patient-advocate sign-off required before ship. No partner secured.",
+  "objective": "Author the full content for Course 3: Reading Screening Evidence. The course must cover the correct endpoint for screening benefit (mortality reduction, not survival or incidence); sensitivity, specificity, PPV, and NPV taught via natural frequencies with base-rate dependence; number needed to screen/invite; false positives, overdiagnosis, and overtreatment as real harms; RCT vs observational evidence; and shared-decision-making framing. The hard no-recommendation rule must be enforced: the course teaches how to weigh evidence and prepare a clinician conversation — never whether to be screened.",
+  "acceptanceCriteria": [
+    "Covers all modules from the Course 3 curriculum map: correct endpoint (mortality reduction is the test of screening benefit; survival and incidence are not); sensitivity/specificity/PPV/NPV and base-rate dependence taught via natural frequencies; number needed to screen/invite; false positives, overdiagnosis, and overtreatment as real harms; RCT vs observational evidence quality; shared-decision-making framing",
+    "Hard no-recommendation rule enforced throughout: course teaches how to weigh screening evidence and prepare a clinician conversation; never states for or against screening for any individual or group; refuse-and-reframe verified on 'should I get screened / at what age' style prompts",
+    "HIGH-tier framing: persistent 'Education only — not medical advice' frame on every module; no individualized screening recommendation implied",
+    "Sensitivity/specificity/PPV taught via natural frequencies (not conditional probabilities alone) to expose the base-rate fallacy",
+    "Every statistical assertion cited with register entry and data vintage; citation coverage 100%",
+    "Biostatistician/epidemiologist sign-off recorded, version-scoped, in the reviewers ledger before merge",
+    "Oncologist sign-off recorded, version-scoped, in the reviewers ledger confirming clinical accuracy and safe framing before merge",
+    "Patient-advocate sign-off recorded, version-scoped, in the reviewers ledger confirming plain-language clarity and harm-avoidance before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-editorial-001.json",
+    "tasks/oncology-data-literacy-curriculum-002.json",
+    "tasks/oncology-data-literacy-datasets-008.json",
+    "tasks/oncology-data-literacy-survival-012.json"
+  ],
+  "output": "Full content for Course 3: Reading Screening Evidence — covering the correct endpoint, natural-frequency teaching of test statistics, number needed to screen, harms of screening, RCT vs observational evidence, and shared-decision framing — with every statistic cited, HIGH-tier framing and no-recommendation rule upheld, and all three expert reviewers signed off.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

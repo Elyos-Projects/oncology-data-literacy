@@ -1,0 +1,35 @@
+{
+  "id": "oncology-data-literacy-educator-025",
+  "title": "Educator facilitation guide + slide deck + lesson plan",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "statistics", "health-literacy", "education"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Libraries, community colleges, and adult-education programs are target delivery partners for Oncology-Data-Literacy. A facilitation guide, slide deck, and lesson plan lower the adoption cost for educators who want to teach the courses but need structured support. This backlog item creates that package: an educator-facing document that explains how to teach each course, provides a slide deck for in-person or hybrid delivery, and offers a lesson plan adaptable to different session lengths. Content is statistical-tier (medium risk) since it covers the same statistical content as the core courses, seen from an educator angle.",
+  "objective": "Produce an educator facilitation guide, a modular slide deck, and a lesson plan template for delivering the Oncology-Data-Literacy courses in library/community-college/adult-education settings. The facilitation guide must explain each core concept from the educator's perspective, anticipate common learner questions, and provide guidance on how to handle learner questions that drift into 'should I be screened' territory (refusing and reframing). The slide deck must be modular so educators can select topics.",
+  "acceptanceCriteria": [
+    "Educator facilitation guide covers all three courses, with per-concept guidance including common learner questions and correct responses, and guidance on refuse-and-reframe for out-of-scope questions",
+    "Modular slide deck produced: one slide set per major topic area, adaptable to different session lengths and audience types (public, journalism students, patient advocates)",
+    "Lesson plan template adaptable to common session lengths (e.g., 60-minute, 90-minute, half-day) for at least one of the three courses",
+    "All statistical content in the facilitation guide and slides is derived from the reviewed core courses and carries the 'not medical advice' framing",
+    "Facilitation guide explicitly addresses how to handle a learner who asks 'should I get screened' or 'what does this mean for my situation' (refuse and reframe to the core teaching)",
+    "Biostatistician/epidemiologist sign-off on statistical accuracy of the facilitation materials recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-rates-010.json",
+    "tasks/oncology-data-literacy-survival-012.json",
+    "tasks/oncology-data-literacy-screening-014.json"
+  ],
+  "output": "An educator facilitation guide, modular slide deck, and lesson plan template for delivering Oncology-Data-Literacy courses in library/college/adult-education settings — lowering adoption cost for partners and stats-reviewer signed off.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

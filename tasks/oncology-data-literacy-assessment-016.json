@@ -1,0 +1,36 @@
+{
+  "id": "oncology-data-literacy-assessment-016",
+  "title": "Validated pre/post misconception instrument (items mapped to the inventory)",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "assessment"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Measuring misconception reduction in real learners is the project's primary success metric — not page views or publication. This task creates the pre/post instrument that measures whether learners' understanding of cancer statistics actually improves after completing a course. The instrument must map one-to-one to the named misconception inventory, including the 'survival-rise implies screening benefit' and base-rate items. It may adapt a validated risk-literacy instrument (per its license, verified before use) or build and lightly validate a bespoke instrument. Stats-reviewer sign-off on item correctness required.",
+  "objective": "Create a validated pre/post misconception measurement instrument (survey/quiz) with items that map one-to-one to the named misconception inventory from oncology-data-literacy-curriculum-002. The instrument must include items covering at minimum: (1) the survival-rise implies screening/treatment benefit misconception; (2) the base-rate fallacy for test accuracy; (3) crude vs age-standardized rates confusion; (4) relative vs absolute risk confusion; (5) lifetime risk as personal probability error. Scoring and interpretation must be documented.",
+  "acceptanceCriteria": [
+    "Pre/post items map one-to-one to the misconception inventory, including the 'survival-rise implies screening/treatment saves lives' item and the base-rate fallacy item",
+    "Either adapts a validated risk-literacy instrument (with verified license permitting adaptation) or builds a bespoke instrument that has been lightly validated on a small pilot group",
+    "Scoring methodology and interpretation documented (e.g., how to compute misconception reduction, what constitutes meaningful pre-to-post improvement)",
+    "Items are reviewed by the stats reviewer for statistical correctness of every stem and correct-answer key",
+    "Instrument is structured as an anonymous, opt-in assessment; no personally identifying data is collected or required",
+    "Biostatistician/epidemiologist sign-off on item correctness recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-curriculum-002.json",
+    "tasks/oncology-data-literacy-rates-010.json",
+    "tasks/oncology-data-literacy-survival-012.json",
+    "tasks/oncology-data-literacy-screening-014.json"
+  ],
+  "output": "A validated pre/post misconception assessment instrument with items mapped to the full misconception inventory, documented scoring methodology, and stats-reviewer sign-off recorded — the measurement tool that determines whether the courses achieve their core objective.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

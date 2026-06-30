@@ -1,0 +1,35 @@
+{
+  "id": "oncology-data-literacy-journalism-024",
+  "title": "Newsroom/health-reporter edition (deadline-friendly checklists)",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "journalism"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Health journalists, science communicators, and health reporters are a high-leverage upstream audience: accurate coverage from this group reaches far more people than direct learner education. This backlog item adapts the core course content into a newsroom/deadline-friendly format — quick-reference checklists and worked examples that a journalist can apply before publishing a cancer-statistic story. Content is statistical-tier (medium risk) and reuses the core course content with a different format and audience framing. Biostatistician sign-off required for statistical correctness.",
+  "objective": "Adapt the core content from all three courses into a newsroom/health-reporter edition: deadline-friendly checklists (e.g., 'before you publish a cancer survival story, check…') and a short worked-example set that a journalist can apply on deadline. Content must reuse the core course material (not diverge from it), implement all editorial guardrail rules, and be pitched at a health-reporter audience rather than a patient/public audience.",
+  "acceptanceCriteria": [
+    "Produces deadline-friendly checklists for at least three reporting scenarios: covering a cancer survival statistic, covering a screening announcement, and covering a cancer rate trend",
+    "Each checklist is derived from the core course content and the misconception inventory (no divergence from the editorial guardrail rules)",
+    "Includes at least one short worked example showing how to apply a checklist to a real cancer news story (using cited aggregate data)",
+    "Written for a health-reporter audience: assumes numeracy, uses journalistic framing, is scannable on deadline",
+    "Carries 'not medical advice' framing (education-only) and does not imply screening recommendations",
+    "Biostatistician/epidemiologist sign-off on statistical correctness recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-rates-010.json",
+    "tasks/oncology-data-literacy-survival-012.json",
+    "tasks/oncology-data-literacy-screening-014.json"
+  ],
+  "output": "A newsroom/health-reporter edition of the core content: deadline-friendly checklists for cancer-statistic reporting scenarios and a worked-example set — adapted from the core courses, stats-reviewer signed off, and targeted at a journalist audience.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

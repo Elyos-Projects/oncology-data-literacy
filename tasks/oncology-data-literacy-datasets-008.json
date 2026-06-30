@@ -1,0 +1,34 @@
+{
+  "id": "oncology-data-literacy-datasets-008",
+  "title": "Aggregate teaching datasets + data dictionaries (published rate/survival/screening tables, aggregate-only)",
+  "project": "oncology-data-literacy",
+  "type": "data",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "data-provenance"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Course worked examples in Oncology-Data-Literacy are built from small, well-documented aggregate extracts of published cancer statistics. These must be committed to the repository as teaching datasets with data dictionaries and provenance register links, before course content tasks begin. All datasets are aggregate-only — no individual-level, identifiable, or controlled-access patient data. Sources must already have verified register entries (oncology-data-literacy-sources-007). The datasets support the curriculum's core worked example types: crude vs age-standardized rate pairs, relative-survival-by-stage tables, and screening trial summary statistics.",
+  "objective": "Assemble and commit the set of aggregate teaching datasets needed for the core worked examples in all three courses. Each dataset must be aggregate-only (no individual-level data), licensed under a CC-BY-compatible or public-domain license (per the register), accompanied by a data dictionary defining each field, and linked to its provenance register entry with data vintage. The dataset set must cover: crude vs age-standardized rate examples, relative survival by stage examples, and a screening trial summary statistic example.",
+  "acceptanceCriteria": [
+    "All datasets are aggregate-only (published rate tables, survival tables, or screening trial summaries); no individual-level, record-level, identifiable, or controlled-access data is present",
+    "Each dataset has a data dictionary defining every field/column, measurement units, suppression rules, and the source population",
+    "Each dataset is linked to its provenance register entry (from oncology-data-literacy-sources-007) with data vintage and retrieval date",
+    "Dataset set covers the three core worked-example types from the curriculum: (1) crude vs age-standardized rate pair for at least one cancer type; (2) relative/net survival by stage for at least one cancer type; (3) a screening trial summary statistic demonstrating the mortality-endpoint distinction",
+    "All datasets are stored under a CC-BY-compatible or public-domain license with attribution noted in the data dictionary",
+    "Stats-reviewer audit of datasets and data dictionaries recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-sources-007.json",
+    "tasks/oncology-data-literacy-curriculum-002.json"
+  ],
+  "output": "A committed set of aggregate teaching datasets (with data dictionaries and provenance register links) covering crude/age-standardized rates, relative survival by stage, and a screening trial summary — the empirical base for all course worked examples.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

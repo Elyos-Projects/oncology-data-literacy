@@ -1,0 +1,37 @@
+{
+  "id": "oncology-data-literacy-survival-012",
+  "title": "Course 2 content: observed vs relative/net survival, survival≠mortality, lead-time/length-time bias, overdiagnosis, stage migration, KM/censoring basics",
+  "project": "oncology-data-literacy",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "statistics", "health-literacy", "education", "survival"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "Reading Survival is the second course and the highest-misconception area in cancer statistics: 'Five-year survival has doubled' is routinely misread as proof that screening saves lives, when lead-time bias, length-time bias, overdiagnosis, and stage migration can produce exactly that pattern with no mortality benefit. This is patient-facing content (HIGH riskTier per the binding Elyos cancer guardrails) and requires biostatistician + oncologist + patient-advocate sign-off before ship. The 'Education only — not medical advice' frame must be persistent and unambiguous; no individual prognosis may be presented or implied. No partner or expert reviewer is yet secured.",
+  "objective": "Author the full content for Course 2: Reading Survival. The course must cover observed vs relative/net (cause-specific) survival; why 5-year survival is not equivalent to mortality, and why rising survival can occur with no mortality benefit; lead-time bias; length-time bias; overdiagnosis; stage migration / Will Rogers phenomenon; median and conditional survival; and Kaplan-Meier and censoring basics. Each learning objective must be tied to a named misconception. All statistics must be cited with data vintage from aggregate sources. The HIGH-tier 'Education only — not medical advice' framing must be persistent; no individual prognosis may be implied.",
+  "acceptanceCriteria": [
+    "Covers all modules from the Course 2 curriculum map: observed vs relative/net (cause-specific) survival; why 5-year survival does not equal mortality benefit and how lead-time bias, length-time bias, and overdiagnosis can inflate survival without mortality benefit; stage migration / Will Rogers phenomenon; median and conditional survival; Kaplan-Meier and censoring basics",
+    "HIGH-tier framing is present throughout: persistent 'Education only — not medical advice' disclaimer on every module; course presents no individual prognosis and no 'what this means for you' answer; out-of-scope individual questions are routed to the learner's clinician",
+    "Each learning objective is tied to a named misconception from the inventory, especially the 'survival-rise implies screening/treatment benefit' error",
+    "Every statistical assertion is cited with a register entry and data vintage; citation coverage 100% (CI check passes)",
+    "All editorial guardrail rules from oncology-data-literacy-editorial-001 are implemented",
+    "Biostatistician/epidemiologist sign-off recorded, version-scoped, in the reviewers ledger before merge",
+    "Oncologist sign-off recorded, version-scoped, in the reviewers ledger confirming clinical accuracy and safe framing before merge",
+    "Patient-advocate sign-off recorded, version-scoped, in the reviewers ledger confirming plain-language clarity, dignity, and harm-avoidance (no fear-mongering, no false reassurance) before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-editorial-001.json",
+    "tasks/oncology-data-literacy-curriculum-002.json",
+    "tasks/oncology-data-literacy-datasets-008.json"
+  ],
+  "output": "Full content for Course 2: Reading Survival, covering observed vs relative/net survival, survival-vs-mortality distinction, lead-time/length-time bias, overdiagnosis, stage migration, and KM/censoring basics — with every statistic cited, HIGH-tier framing upheld, and biostatistician + oncologist + patient-advocate sign-off recorded.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}

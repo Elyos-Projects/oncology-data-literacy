@@ -1,0 +1,31 @@
+{
+  "id": "oncology-data-literacy-platform-004",
+  "title": "OER repo + static build + portable/LMS export + CI (lint, link-check, citation-coverage scaffold)",
+  "project": "oncology-data-literacy",
+  "type": "code",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["cancer", "health-literacy", "education", "tooling", "platform"],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Oncology-Data-Literacy needs an OER repo and static build pipeline before course content authoring begins. The architecture is a pnpm + TypeScript/ESM repo with source content in Markdown/MDX, built into a static OER site and exported to portable formats (HTML, print PDF, and an OER-package/Common-Cartridge or SCORM export for LMS partners). CI must enforce lint, link-check, and a citation-coverage scaffold (stub that will fail on any uncited statistic once content exists). No secrets, PII, or patient data in the repo.",
+  "objective": "Bootstrap the OER repository and build pipeline: pnpm + TypeScript/ESM workspace, a chosen static OER generator (e.g., Astro or Docusaurus), portable export targets (HTML, print PDF, Common Cartridge/SCORM for LMS), and CI that runs lint, link-check, and a citation-coverage scaffold stub. The scaffold should be wired so it would fail on an uncited statistic once content exists, even if no content is present yet.",
+  "acceptanceCriteria": [
+    "pnpm + TypeScript/ESM repo with a chosen static OER generator committed and build passing",
+    "Portable export targets wired (HTML, print-ready PDF, and at least one OER-package/LMS export format — Common Cartridge or SCORM)",
+    "CI pipeline runs lint, link-check, and a citation-coverage scaffold stub; the scaffold is structured to fail on uncited statistics when content is added",
+    "No secrets, PII, identifiable patient data, or controlled-access data in the repo; build requires no runtime secrets",
+    "Maintainer-reviewed PR is green (build, lint, link-check, citation scaffold) before merge"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md"
+  ],
+  "output": "A merged PR establishing the OER repo structure, static build pipeline, portable export formats, and CI with lint + link-check + citation-coverage scaffold.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "oncology-data-literacy-delivery-020",
+  "title": "Real-learner cohort completes a course; misconception reduction recorded (the closed loop)",
+  "project": "oncology-data-literacy",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": ["cancer", "health-literacy", "education", "governance", "delivery"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The project's Definition of Shipped requires that a real cohort of learners completes a course and demonstrates a measurable reduction in the targeted statistical misconceptions, with outcomes recorded with the delivery partner's attestation. This task represents the closed-loop measurement that constitutes the deed. The pre/post instrument (oncology-data-literacy-assessment-016) is administered by the delivery partner to real learners; the eval harness (oncology-data-literacy-eval-017) scores the results. The 'not medical advice' frame must be upheld throughout delivery. No partner is yet secured.",
+  "objective": "Coordinate with the secured delivery partner to deliver a course to a real learner cohort, administer the pre/post misconception instrument, and record the measured reduction in targeted misconceptions (per-item delta and aggregate) with the partner's attestation. Confirm the 'not medical advice' frame was upheld throughout delivery. Record outcomes as the success object: misconception reduction, not page views.",
+  "acceptanceCriteria": [
+    "A real learner cohort completes at least one full course (Reading Rates, Reading Survival, or Reading Screening Evidence) under the secured delivery partner",
+    "The pre/post misconception instrument is administered to the cohort; results are recorded anonymously (no PII) with the partner's attestation",
+    "The eval harness (oncology-data-literacy-eval-017) scores the pre-to-post misconception reduction; the per-item delta is recorded for the core misconception items",
+    "Outcomes show a statistically meaningful or observable reduction in at least the core misconception items (e.g., survival-rise implies benefit, base-rate item); if no movement is detected, content is flagged for rework per the M5 kill-gate",
+    "'Not medical advice' frame was upheld throughout delivery; partner attests no individualized advice or screening recommendation was implied",
+    "Outcomes are recorded as the project's success object: cohort size, per-item misconception reduction, and partner attestation — not page views or module completions alone",
+    "Oncologist attestation that HIGH-tier framing was maintained in any survival or screening modules delivered"
+  ],
+  "resources": [
+    "planning/projects/oncology-data-literacy/PLAN.md",
+    "planning/projects/oncology-data-literacy/TASKS.md",
+    "tasks/oncology-data-literacy-partner-019.json",
+    "tasks/oncology-data-literacy-assessment-016.json",
+    "tasks/oncology-data-literacy-eval-017.json"
+  ],
+  "output": "A delivery outcomes report: cohort size, per-item pre/post misconception reduction recorded with partner attestation, 'not medical advice' compliance confirmed — the closed-loop measurement that constitutes the project's Definition of Shipped.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
